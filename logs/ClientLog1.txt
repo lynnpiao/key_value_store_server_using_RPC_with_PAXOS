@@ -1,0 +1,41 @@
+2025-03-24 23:29:36.480 Key-Value Store Client started. Type 'exit' to quit.
+2025-03-24 23:29:36.750 Attempting to connect to server at port: 4560
+2025-03-24 23:29:36.977 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:37.534 XML utils.Request: <utils.Request><key>Die_with_a_Smile</key><type>PUT</type><value>pop</value></utils.Request>
+2025-03-24 23:29:37.546 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Die_with_a_Smile, VALUE=pop)</message></utils.Response>
+2025-03-24 23:29:37.597 Attempting to connect to server at port: 4560
+2025-03-24 23:29:37.613 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.031 XML utils.Request: <utils.Request><key>Apt</key><type>PUT</type><value>pop</value></utils.Request>
+2025-03-24 23:29:38.036 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Apt, VALUE=pop)</message></utils.Response>
+2025-03-24 23:29:38.045 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.051 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.320 XML utils.Request: <utils.Request><key>Smile</key><type>PUT</type><value>country</value></utils.Request>
+2025-03-24 23:29:38.331 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Smile, VALUE=country)</message></utils.Response>
+2025-03-24 23:29:38.341 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.347 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.569 XML utils.Request: <utils.Request><key>Lose_Control</key><type>PUT</type><value>soul</value></utils.Request>
+2025-03-24 23:29:38.571 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Lose_Control, VALUE=soul)</message></utils.Response>
+2025-03-24 23:29:38.579 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.584 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.704 XML utils.Request: <utils.Request><key>Espresso</key><type>PUT</type><value>pop</value></utils.Request>
+2025-03-24 23:29:38.706 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Espresso, VALUE=pop)</message></utils.Response>
+2025-03-24 23:29:38.714 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.718 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.850 XML utils.Request: <utils.Request><key>Maybe_This_Christmas</key><type>PUT</type><value>pop</value></utils.Request>
+2025-03-24 23:29:38.856 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Maybe_This_Christmas, VALUE=pop)</message></utils.Response>
+2025-03-24 23:29:38.861 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.866 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.925 XML utils.Request: <utils.Request><key>Forever_Young</key><type>PUT</type><value>dance&amp;pop</value></utils.Request>
+2025-03-24 23:29:38.930 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Forever_Young, VALUE=dance&amp;pop)</message></utils.Response>
+2025-03-24 23:29:38.937 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.944 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.052 XML utils.Request: <utils.Request><key>Little_Things</key><type>PUT</type><value>R&amp;B</value></utils.Request>
+2025-03-24 23:29:40.055 XML utils.Response: <utils.Response><message>ERROR: Commit phase timeout for key=Little_Things</message></utils.Response>
+2025-03-24 23:29:40.059 Attempting to connect to server at port: 4560
+2025-03-24 23:29:40.068 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.155 XML utils.Request: <utils.Request><key>Mirame</key><type>PUT</type><value>reggaeton</value></utils.Request>
+2025-03-24 23:29:40.160 XML utils.Response: <utils.Response><message>PUT: Updated (KEY=Mirame, VALUE=reggaeton), OLD VALUE=R&amp;B</message></utils.Response>
+2025-03-24 23:29:40.163 Attempting to connect to server at port: 4560
+2025-03-24 23:29:40.169 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.349 XML utils.Request: <utils.Request><key>Weren't_For_The_Wind</key><type>PUT</type><value>country</value></utils.Request>
+2025-03-24 23:29:40.351 XML utils.Response: <utils.Response><message>PUT: Updated (KEY=Weren't_For_The_Wind, VALUE=country), OLD VALUE=pop</message></utils.Response>

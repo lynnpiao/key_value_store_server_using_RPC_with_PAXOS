@@ -1,0 +1,19 @@
+PUT Python korean&GOT7
+PUT Not_By_The_Moon korean&GOT7
+PUT Lullaby korean&GOT7
+PUT Boy_With_Luv korean&BTS
+PUT Fake_Love korean&BTS
+GET Maybe_This_Christmas
+GET Forever_Young
+GET Mirame
+GET Lullaby
+GET Butter
+DELETE Little_Things
+DELETE Mirame
+DELETE Dynamite
+DELETE Butter
+DELETE Fake_Love
+PUT key1 value1 pop
+GET Butter
+PUSH Butter korean&BTS
+DELETE Dynamite

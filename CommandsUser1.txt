@@ -1,0 +1,19 @@
+PUT Little_Things country
+PUT Mirame R&B
+PUT Weren't_For_The_Wind pop
+PUT Dynamite korean&BTS
+PUT Butter korean&BTS
+GET Lose_Control
+GET Die_with_a_Smile
+GET Apt
+GET Smile
+GET Espresso
+DELETE Lose_Control
+DELETE Die_with_a_Smile
+DELETE Apt
+DELETE Smile
+DELETE Espresso
+PUT Big Smile pop
+GET Smile
+PUSH Smile pop
+DELETE Smile

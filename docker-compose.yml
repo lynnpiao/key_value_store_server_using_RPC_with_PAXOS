@@ -1,0 +1,91 @@
+services:
+  rmi-server:
+    build:
+      context: .
+      dockerfile: Docker/DockerfileServer
+    container_name: rmi-server
+    ports:
+      - "4560:4560"
+      - "4561:4561"
+      - "4562:4562"
+      - "4563:4563"
+      - "4564:4564"
+    environment:
+      - SERVER_PORT=4560,4561,4562,4563,4564
+      - LOG_FILE=/app/logs/ServerLog1.txt,/app/logs/ServerLog2.txt,/app/logs/ServerLog3.txt,/app/logs/ServerLog4.txt,/app/logs/ServerLog5.txt
+      - LEARNER_LOG=/app/logs/CentralizedLearnerLog.txt
+    networks:
+      - rmi-network
+    volumes:
+      - ./logs:/app/logs
+
+  rmi-client1:
+    build:
+      context: .
+      dockerfile: Docker/DockerfileClient
+    container_name: rmi-client1
+    depends_on:
+      - rmi-server
+    environment:
+      - SERVER_HOST=rmi-server
+      - SERVER_PORT_LIST=4560,4561,4562,4563,4564
+      - CLIENT_LOG=/app/logs/ClientLog1.txt
+      - COMMAND_FILE=/app/CommandsInitial.txt
+      - WAIT_FOR_CLIENT1=false
+      - READY_FILE=/app/shared/ready.flag
+    networks:
+      - rmi-network
+    volumes:
+      - ./logs:/app/logs  # Mounts local 'logs' folder to container '/app/logs'
+      - shared-data:/app/shared   # <---- share volume for clients
+    restart: "no"
+
+  rmi-client2:
+    build:
+      context: .
+      dockerfile: Docker/DockerfileClient
+    container_name: rmi-client2
+    depends_on:
+      - rmi-server
+      - rmi-client1
+    environment:
+      - SERVER_HOST=rmi-server
+      - SERVER_PORT_LIST=4560,4561,4562,4563,4564
+      - CLIENT_LOG=/app/logs/ClientLog2.txt
+      - COMMAND_FILE=/app/CommandsUser1.txt
+      - WAIT_FOR_CLIENT1=true
+      - READY_FILE=/app/shared/ready.flag
+    networks:
+      - rmi-network
+    volumes:
+      - ./logs:/app/logs  # Mounts local 'logs' folder to container '/app/logs'
+      - shared-data:/app/shared
+    restart: "no"
+
+  rmi-client3:
+    build:
+      context: .
+      dockerfile: Docker/DockerfileClient
+    container_name: rmi-client3
+    depends_on:
+      - rmi-server
+      - rmi-client1
+    environment:
+      - SERVER_HOST=rmi-server
+      - SERVER_PORT_LIST=4560,4561,4562,4563,4564
+      - CLIENT_LOG=/app/logs/ClientLog3.txt
+      - COMMAND_FILE=/app/CommandsUser2.txt
+      - WAIT_FOR_CLIENT1=true
+      - READY_FILE=/app/shared/ready.flag
+    networks:
+      - rmi-network
+    volumes:
+      - ./logs:/app/logs  # Mounts local 'logs' folder to container '/app/logs'
+      - shared-data:/app/shared
+    restart: "no"
+
+networks:
+  rmi-network:
+
+volumes:
+  shared-data:

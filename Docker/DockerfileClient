@@ -1,0 +1,49 @@
+# Use Maven to build the application
+FROM maven:3.8-openjdk-11 AS build
+
+# Set the working directory
+WORKDIR /app
+
+# Copy all source code and pom.xml
+COPY . /app
+
+# Build the project
+RUN mvn clean package
+
+# Use OpenJDK 11
+FROM openjdk:11-jdk-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the built JAR from the builder stage(use dependency version)
+COPY --from=build /app/target/project4-1.0-SNAPSHOT-jar-with-dependencies.jar rmi-client.jar
+
+# Copy necessary files (Commands.txt) into the container
+COPY CommandsInitial.txt CommandsUser1.txt CommandsUser2.txt /app/
+
+# Expose the client port
+EXPOSE 1099 1100 1101
+
+# Ensure logs directory exists
+RUN mkdir -p /app/logs /app/shared
+
+
+# Copy entrypoint script
+COPY entrypoint.sh /app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
+
+
+# Default values for client arguments
+ENV SERVER_HOST="server"
+ENV SERVER_PORT_LIST=4560,4561,4562,4563,4564
+ENV CLIENT_LOG="/app/logs/ClientLog1.txt"
+ENV COMMAND_FILE="/app/CommandsInitial.txt"
+ENV WAIT_FOR_CLIENT1="false"
+
+# Use entrypoint
+ENTRYPOINT ["/app/entrypoint.sh"]
+
+# Run the client with arguments (if use Command file as input for requests, add $COMMAND_FILE; otherwise delete to compile)
+# CMD ["sh", "-c", "java -cp rmi-client.jar RMIClient $SERVER_HOST $SERVER_PORT_LIST $CLIENT_LOG $COMMAND_FILE"]
+

@@ -1,0 +1,130 @@
+2025-03-24 23:29:37.275 [Acceptor] PROMISE sent for key=Die_with_a_Smile with proposalId=1249739523
+2025-03-24 23:29:37.334 [Acceptor] ACCEPTED sent for key=Die_with_a_Smile with proposalId=1249739523
+2025-03-24 23:29:37.347 [Acceptor] PROMISE sent for key=Little_Things with proposalId=1249739614
+2025-03-24 23:29:37.360 [Replica] COMMIT_PUT | Key: Die_with_a_Smile | Value: pop
+2025-03-24 23:29:37.360 [Acceptor] PROMISE sent for key=Python with proposalId=1249739632
+2025-03-24 23:29:37.367 [Acceptor] ACCEPTED sent for key=Little_Things with proposalId=1249739614
+2025-03-24 23:29:37.486 [Acceptor] ACCEPTED sent for key=Python with proposalId=1249739632
+2025-03-24 23:29:37.603 [Proposer] : 4 received COMMIT for key=Die_with_a_Smile
+2025-03-24 23:29:37.725 [Acceptor] PROMISE sent for key=Apt with proposalId=1249739920
+2025-03-24 23:29:37.787 [Acceptor] ACCEPTED sent for key=Apt with proposalId=1249739920
+2025-03-24 23:29:37.789 [Replica] COMMIT_PUT | Key: Little_Things | Value: country
+2025-03-24 23:29:37.823 [Proposer] : 4 received COMMIT for key=Little_Things
+2025-03-24 23:29:37.861 [Replica] COMMIT_PUT | Key: Python | Value: korean&GOT7
+2025-03-24 23:29:37.996 [Proposer] : 4 received COMMIT for key=Python
+2025-03-24 23:29:37.997 [Acceptor] PROMISE sent for key=Mirame with proposalId=1249740200
+2025-03-24 23:29:38.010 [Acceptor] ACCEPTED sent for key=Mirame with proposalId=1249740200
+2025-03-24 23:29:38.013 [Acceptor] PROMISE sent for key=Not_By_The_Moon with proposalId=1249740294
+2025-03-24 23:29:38.018 [Replica] COMMIT_PUT | Key: Apt | Value: pop
+2025-03-24 23:29:38.027 [Acceptor] ACCEPTED sent for key=Not_By_The_Moon with proposalId=1249740294
+2025-03-24 23:29:38.046 [Proposer] : 4 received COMMIT for key=Apt
+2025-03-24 23:29:38.069 [Acceptor] PROMISE sent for key=Smile with proposalId=1249740353
+2025-03-24 23:29:38.069 [Replica] COMMIT_PUT | Key: Mirame | Value: R&B
+2025-03-24 23:29:38.078 [Acceptor] ACCEPTED sent for key=Smile with proposalId=1249740353
+2025-03-24 23:29:38.090 [Proposer] : 4 received COMMIT for key=Mirame
+2025-03-24 23:29:38.120 [Acceptor] PROMISE sent for key=Weren't_For_The_Wind with proposalId=1249740401
+2025-03-24 23:29:38.156 [Replica] COMMIT_PUT | Key: Not_By_The_Moon | Value: korean&GOT7
+2025-03-24 23:29:38.165 [Acceptor] ACCEPTED sent for key=Weren't_For_The_Wind with proposalId=1249740401
+2025-03-24 23:29:38.211 [Proposer] : 4 received COMMIT for key=Not_By_The_Moon
+2025-03-24 23:29:38.282 [Acceptor] PROMISE sent for key=Lullaby with proposalId=1249740539
+2025-03-24 23:29:38.300 [Replica] COMMIT_PUT | Key: Smile | Value: country
+2025-03-24 23:29:38.330 [Acceptor] ACCEPTED sent for key=Lullaby with proposalId=1249740539
+2025-03-24 23:29:38.349 [Proposer] : 4 received COMMIT for key=Smile
+2025-03-24 23:29:38.386 [Acceptor] PROMISE sent for key=Lose_Control with proposalId=1249740652
+2025-03-24 23:29:38.391 [Replica] COMMIT_PUT | Key: Weren't_For_The_Wind | Value: pop
+2025-03-24 23:29:38.393 [Acceptor] ACCEPTED sent for key=Lose_Control with proposalId=1249740652
+2025-03-24 23:29:38.415 [Proposer] : 4 received COMMIT for key=Weren't_For_The_Wind
+2025-03-24 23:29:38.431 [Replica] COMMIT_PUT | Key: Lullaby | Value: korean&GOT7
+2025-03-24 23:29:38.449 [Acceptor] PROMISE sent for key=Dynamite with proposalId=1249740725
+2025-03-24 23:29:38.457 [Proposer] : 4 received COMMIT for key=Lullaby
+2025-03-24 23:29:38.464 [Acceptor] ACCEPTED sent for key=Dynamite with proposalId=1249740725
+2025-03-24 23:29:38.558 [Acceptor] PROMISE sent for key=Boy_With_Luv with proposalId=1249740769
+2025-03-24 23:29:38.560 [Replica] COMMIT_PUT | Key: Lose_Control | Value: soul
+2025-03-24 23:29:38.569 [Acceptor] ACCEPTED sent for key=Boy_With_Luv with proposalId=1249740769
+2025-03-24 23:29:38.580 [Proposer] : 4 received COMMIT for key=Lose_Control
+2025-03-24 23:29:38.595 [Acceptor] PROMISE sent for key=Espresso with proposalId=1249740886
+2025-03-24 23:29:38.598 [Replica] COMMIT_PUT | Key: Dynamite | Value: korean&BTS
+2025-03-24 23:29:38.603 [Acceptor] ACCEPTED sent for key=Espresso with proposalId=1249740886
+2025-03-24 23:29:38.613 [Proposer] : 4 received COMMIT for key=Dynamite
+2025-03-24 23:29:38.632 [Acceptor] PROMISE sent for key=Butter with proposalId=1249740916
+2025-03-24 23:29:38.638 [Replica] COMMIT_PUT | Key: Boy_With_Luv | Value: korean&BTS
+2025-03-24 23:29:38.641 [Acceptor] ACCEPTED sent for key=Butter with proposalId=1249740916
+2025-03-24 23:29:38.663 [Proposer] : 4 received COMMIT for key=Boy_With_Luv
+2025-03-24 23:29:38.687 [Acceptor] PROMISE sent for key=Fake_Love with proposalId=1249740974
+2025-03-24 23:29:38.693 [Replica] COMMIT_PUT | Key: Espresso | Value: pop
+2025-03-24 23:29:38.696 [Acceptor] ACCEPTED sent for key=Fake_Love with proposalId=1249740974
+2025-03-24 23:29:38.719 [Proposer] : 4 received COMMIT for key=Espresso
+2025-03-24 23:29:38.731 [Acceptor] PROMISE sent for key=Maybe_This_Christmas with proposalId=1249741024
+2025-03-24 23:29:38.734 [Replica] COMMIT_PUT | Key: Butter | Value: korean&BTS
+2025-03-24 23:29:38.736 [Acceptor] ACCEPTED sent for key=Maybe_This_Christmas with proposalId=1249741024
+2025-03-24 23:29:38.745 [Proposer] : 4 received COMMIT for key=Butter
+2025-03-24 23:29:38.778 [Replica] COMMIT_PUT | Key: Fake_Love | Value: korean&BTS
+2025-03-24 23:29:38.808 [Proposer] : 4 received COMMIT for key=Fake_Love
+2025-03-24 23:29:38.838 [Replica] COMMIT_PUT | Key: Maybe_This_Christmas | Value: pop
+2025-03-24 23:29:38.865 Received XML utils.Request: <utils.Request><key>Smile</key><type>GET</type></utils.Request> from: 172.18.0.4:49436
+2025-03-24 23:29:38.868 [Proposer] : 4 received COMMIT for key=Maybe_This_Christmas
+2025-03-24 23:29:38.873 Sending XML utils.Response: <utils.Response><message>FOUND: (KEY= Smile, VALUE= country)</message></utils.Response> to: 172.18.0.4:49436
+2025-03-24 23:29:38.880 [Acceptor] PROMISE sent for key=Forever_Young with proposalId=1249741169
+2025-03-24 23:29:38.900 [Acceptor] ACCEPTED sent for key=Forever_Young with proposalId=1249741169
+2025-03-24 23:29:38.915 [Replica] COMMIT_PUT | Key: Forever_Young | Value: dance&pop
+2025-03-24 23:29:38.941 [Acceptor] PROMISE sent for key=Lose_Control with proposalId=1249741229
+2025-03-24 23:29:38.943 [Proposer] : 4 received COMMIT for key=Forever_Young
+2025-03-24 23:29:38.958 [Acceptor] ACCEPTED sent for key=Lose_Control with proposalId=1249741229
+2025-03-24 23:29:38.974 [Acceptor] PROMISE sent for key=Little_Things with proposalId=1249741261
+2025-03-24 23:29:38.978 [Replica] COMMIT_DELETE | Key: Lose_Control
+2025-03-24 23:29:38.986 [Acceptor] PROMISE sent for key=Little_Things with proposalId=1249741278
+2025-03-24 23:29:38.990 [Acceptor] REJECTED accept for key=Little_Things due to lower proposalId=1249741261
+2025-03-24 23:29:39.020 [Proposer] : 4 received COMMIT for key=Lose_Control
+2025-03-24 23:29:39.020 [Acceptor] ACCEPTED sent for key=Little_Things with proposalId=1249741278
+2025-03-24 23:29:39.028 [Acceptor] PROMISE sent for key=Die_with_a_Smile with proposalId=1249741327
+2025-03-24 23:29:39.033 [Replica] COMMIT_DELETE | Key: Little_Things
+2025-03-24 23:29:39.034 [Acceptor] ACCEPTED sent for key=Die_with_a_Smile with proposalId=1249741327
+2025-03-24 23:29:39.056 [Proposer] : 4 received COMMIT for key=Little_Things
+2025-03-24 23:29:39.081 [Replica] COMMIT_DELETE | Key: Die_with_a_Smile
+2025-03-24 23:29:39.090 [Proposer] : 4 received COMMIT for key=Die_with_a_Smile
+2025-03-24 23:29:40.100 [Acceptor] PROMISE sent for key=Mirame with proposalId=1249742391
+2025-03-24 23:29:40.102 [Acceptor] PROMISE sent for key=Apt with proposalId=1249742397
+2025-03-24 23:29:40.122 [Acceptor] ACCEPTED sent for key=Mirame with proposalId=1249742391
+2025-03-24 23:29:40.124 [Acceptor] ACCEPTED sent for key=Apt with proposalId=1249742397
+2025-03-24 23:29:40.128 [Replica] COMMIT_PUT | Key: Mirame | Value: reggaeton
+2025-03-24 23:29:40.134 [Acceptor] PROMISE sent for key=Mirame with proposalId=1249742436
+2025-03-24 23:29:40.140 [Proposer] : 4 received COMMIT for key=Mirame
+2025-03-24 23:29:40.141 [Acceptor] ACCEPTED sent for key=Mirame with proposalId=1249742436
+2025-03-24 23:29:40.174 [Replica] COMMIT_DELETE | Key: Apt
+2025-03-24 23:29:40.222 [Acceptor] PROMISE sent for key=Weren't_For_The_Wind with proposalId=1249742485
+2025-03-24 23:29:40.237 [Proposer] : 4 received COMMIT for key=Apt
+2025-03-24 23:29:40.238 [Acceptor] ACCEPTED sent for key=Weren't_For_The_Wind with proposalId=1249742485
+2025-03-24 23:29:40.248 [Acceptor] PROMISE sent for key=Smile with proposalId=1249742549
+2025-03-24 23:29:40.268 [Replica] COMMIT_DELETE | Key: Mirame
+2025-03-24 23:29:40.271 [Acceptor] ACCEPTED sent for key=Smile with proposalId=1249742549
+2025-03-24 23:29:40.296 [Proposer] : 4 received COMMIT for key=Mirame
+2025-03-24 23:29:40.328 [Acceptor] PROMISE sent for key=Dynamite with proposalId=1249742626
+2025-03-24 23:29:40.336 [Replica] COMMIT_PUT | Key: Weren't_For_The_Wind | Value: country
+2025-03-24 23:29:40.346 [Acceptor] ACCEPTED sent for key=Dynamite with proposalId=1249742626
+2025-03-24 23:29:40.360 [Proposer] : 4 received COMMIT for key=Weren't_For_The_Wind
+2025-03-24 23:29:40.413 [Replica] COMMIT_DELETE | Key: Smile
+2025-03-24 23:29:40.444 [Proposer] : 4 received COMMIT for key=Smile
+2025-03-24 23:29:40.466 [Acceptor] PROMISE sent for key=Espresso with proposalId=1249742767
+2025-03-24 23:29:40.468 [Replica] COMMIT_DELETE | Key: Dynamite
+2025-03-24 23:29:40.471 [Acceptor] ACCEPTED sent for key=Espresso with proposalId=1249742767
+2025-03-24 23:29:40.486 [Proposer] : 4 received COMMIT for key=Dynamite
+2025-03-24 23:29:40.619 [Acceptor] PROMISE sent for key=Butter with proposalId=1249742804
+2025-03-24 23:29:40.626 [Acceptor] ACCEPTED sent for key=Butter with proposalId=1249742804
+2025-03-24 23:29:40.627 [Replica] COMMIT_DELETE | Key: Espresso
+2025-03-24 23:29:40.660 [Proposer] : 4 received COMMIT for key=Espresso
+2025-03-24 23:29:40.688 [Replica] COMMIT_DELETE | Key: Butter
+2025-03-24 23:29:40.725 [Proposer] : 4 received COMMIT for key=Butter
+2025-03-24 23:29:40.754 [Acceptor] PROMISE sent for key=Fake_Love with proposalId=1249743058
+2025-03-24 23:29:40.774 [Acceptor] ACCEPTED sent for key=Fake_Love with proposalId=1249743058
+2025-03-24 23:29:40.789 [Acceptor] PROMISE sent for key=Smile with proposalId=1249743079
+2025-03-24 23:29:40.799 [Replica] COMMIT_DELETE | Key: Fake_Love
+2025-03-24 23:29:40.801 [Acceptor] ACCEPTED sent for key=Smile with proposalId=1249743079
+2025-03-24 23:29:40.817 [Proposer] : 4 received COMMIT for key=Fake_Love
+2025-03-24 23:29:40.847 [Replica] COMMIT_DELETE | Key: Smile
+2025-03-24 23:29:40.848 Received XML utils.Request: <utils.Request><key>Butter</key><type>GET</type></utils.Request> from: 172.18.0.5:38866
+2025-03-24 23:29:40.855 Sending XML utils.Response: <utils.Response><message>NOT FOUND: Butter</message></utils.Response> to: 172.18.0.5:38866
+2025-03-24 23:29:40.876 [Proposer] : 4 received COMMIT for key=Smile
+2025-03-24 23:29:40.910 [Acceptor] PROMISE sent for key=Dynamite with proposalId=1249743220
+2025-03-24 23:29:40.919 [Acceptor] ACCEPTED sent for key=Dynamite with proposalId=1249743220
+2025-03-24 23:29:40.924 [Replica] COMMIT_DELETE | Key: Dynamite
+2025-03-24 23:29:40.939 [Proposer] : 4 received COMMIT for key=Dynamite

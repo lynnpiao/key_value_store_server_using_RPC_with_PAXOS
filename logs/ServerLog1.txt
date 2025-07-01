@@ -1,0 +1,232 @@
+2025-03-24 23:29:37.045 Received XML utils.Request: <utils.Request><key>Die_with_a_Smile</key><type>PUT</type><value>pop</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:37.242 [Acceptor] PROMISE sent for key=Die_with_a_Smile with proposalId=1249739523
+2025-03-24 23:29:37.299 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:37.307 [Acceptor] ACCEPTED sent for key=Die_with_a_Smile with proposalId=1249739523
+2025-03-24 23:29:37.319 Received XML utils.Request: <utils.Request><key>Little_Things</key><type>PUT</type><value>country</value></utils.Request> from: 172.18.0.4:32880
+2025-03-24 23:29:37.321 [Replica] COMMIT_PUT | Key: Die_with_a_Smile | Value: pop
+2025-03-24 23:29:37.330 [Acceptor] PROMISE sent for key=Little_Things with proposalId=1249739614
+2025-03-24 23:29:37.336 Received XML utils.Request: <utils.Request><key>Python</key><type>PUT</type><value>korean&amp;GOT7</value></utils.Request> from: 172.18.0.5:47354
+2025-03-24 23:29:37.347 [Acceptor] PROMISE sent for key=Python with proposalId=1249739632
+2025-03-24 23:29:37.350 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:37.354 [Acceptor] ACCEPTED sent for key=Little_Things with proposalId=1249739614
+2025-03-24 23:29:37.364 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:37.365 [Proposer] : 0 received COMMIT for key=Die_with_a_Smile
+2025-03-24 23:29:37.371 [Acceptor] ACCEPTED sent for key=Python with proposalId=1249739632
+2025-03-24 23:29:37.381 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Die_with_a_Smile, VALUE=pop)</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:37.626 Received XML utils.Request: <utils.Request><key>Apt</key><type>PUT</type><value>pop</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:37.634 [Acceptor] PROMISE sent for key=Apt with proposalId=1249739920
+2025-03-24 23:29:37.674 [Replica] COMMIT_PUT | Key: Little_Things | Value: country
+2025-03-24 23:29:37.738 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:37.750 [Acceptor] ACCEPTED sent for key=Apt with proposalId=1249739920
+2025-03-24 23:29:37.792 [Proposer] : 0 received COMMIT for key=Little_Things
+2025-03-24 23:29:37.794 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Little_Things, VALUE=country)</message></utils.Response> to: 172.18.0.4:32880
+2025-03-24 23:29:37.835 [Replica] COMMIT_PUT | Key: Python | Value: korean&GOT7
+2025-03-24 23:29:37.869 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Python, VALUE=korean&amp;GOT7)</message></utils.Response> to: 172.18.0.5:47354
+2025-03-24 23:29:37.868 [Proposer] : 0 received COMMIT for key=Python
+2025-03-24 23:29:37.882 Received XML utils.Request: <utils.Request><key>Mirame</key><type>PUT</type><value>R&amp;B</value></utils.Request> from: 172.18.0.4:32880
+2025-03-24 23:29:37.913 [Acceptor] PROMISE sent for key=Mirame with proposalId=1249740200
+2025-03-24 23:29:37.999 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.002 [Acceptor] ACCEPTED sent for key=Mirame with proposalId=1249740200
+2025-03-24 23:29:38.002 Received XML utils.Request: <utils.Request><key>Not_By_The_Moon</key><type>PUT</type><value>korean&amp;GOT7</value></utils.Request> from: 172.18.0.5:47354
+2025-03-24 23:29:38.002 [Replica] COMMIT_PUT | Key: Apt | Value: pop
+2025-03-24 23:29:38.006 [Acceptor] PROMISE sent for key=Not_By_The_Moon with proposalId=1249740294
+2025-03-24 23:29:38.015 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.018 [Acceptor] ACCEPTED sent for key=Not_By_The_Moon with proposalId=1249740294
+2025-03-24 23:29:38.024 [Proposer] : 0 received COMMIT for key=Apt
+2025-03-24 23:29:38.025 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Apt, VALUE=pop)</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:38.057 [Replica] COMMIT_PUT | Key: Mirame | Value: R&B
+2025-03-24 23:29:38.059 Received XML utils.Request: <utils.Request><key>Smile</key><type>PUT</type><value>country</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:38.064 [Acceptor] PROMISE sent for key=Smile with proposalId=1249740353
+2025-03-24 23:29:38.069 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.071 [Acceptor] ACCEPTED sent for key=Smile with proposalId=1249740353
+2025-03-24 23:29:38.071 [Proposer] : 0 received COMMIT for key=Mirame
+2025-03-24 23:29:38.073 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Mirame, VALUE=R&amp;B)</message></utils.Response> to: 172.18.0.4:32880
+2025-03-24 23:29:38.096 Received XML utils.Request: <utils.Request><key>Weren't_For_The_Wind</key><type>PUT</type><value>pop</value></utils.Request> from: 172.18.0.4:32880
+2025-03-24 23:29:38.111 [Replica] COMMIT_PUT | Key: Not_By_The_Moon | Value: korean&GOT7
+2025-03-24 23:29:38.111 [Acceptor] PROMISE sent for key=Weren't_For_The_Wind with proposalId=1249740401
+2025-03-24 23:29:38.143 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.144 [Acceptor] ACCEPTED sent for key=Weren't_For_The_Wind with proposalId=1249740401
+2025-03-24 23:29:38.163 [Proposer] : 0 received COMMIT for key=Not_By_The_Moon
+2025-03-24 23:29:38.165 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Not_By_The_Moon, VALUE=korean&amp;GOT7)</message></utils.Response> to: 172.18.0.5:47354
+2025-03-24 23:29:38.231 Received XML utils.Request: <utils.Request><key>Lullaby</key><type>PUT</type><value>korean&amp;GOT7</value></utils.Request> from: 172.18.0.5:47354
+2025-03-24 23:29:38.242 [Replica] COMMIT_PUT | Key: Smile | Value: country
+2025-03-24 23:29:38.248 [Acceptor] PROMISE sent for key=Lullaby with proposalId=1249740539
+2025-03-24 23:29:38.300 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.301 [Acceptor] ACCEPTED sent for key=Lullaby with proposalId=1249740539
+2025-03-24 23:29:38.307 [Proposer] : 0 received COMMIT for key=Smile
+2025-03-24 23:29:38.308 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Smile, VALUE=country)</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:38.351 Received XML utils.Request: <utils.Request><key>Lose_Control</key><type>PUT</type><value>soul</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:38.359 [Replica] COMMIT_PUT | Key: Weren't_For_The_Wind | Value: pop
+2025-03-24 23:29:38.360 [Acceptor] PROMISE sent for key=Lose_Control with proposalId=1249740652
+2025-03-24 23:29:38.388 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.389 [Acceptor] ACCEPTED sent for key=Lose_Control with proposalId=1249740652
+2025-03-24 23:29:38.392 [Proposer] : 0 received COMMIT for key=Weren't_For_The_Wind
+2025-03-24 23:29:38.394 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Weren't_For_The_Wind, VALUE=pop)</message></utils.Response> to: 172.18.0.4:32880
+2025-03-24 23:29:38.421 Received XML utils.Request: <utils.Request><key>Dynamite</key><type>PUT</type><value>korean&amp;BTS</value></utils.Request> from: 172.18.0.4:32880
+2025-03-24 23:29:38.422 [Replica] COMMIT_PUT | Key: Lullaby | Value: korean&GOT7
+2025-03-24 23:29:38.433 [Acceptor] PROMISE sent for key=Dynamite with proposalId=1249740725
+2025-03-24 23:29:38.433 [Proposer] : 0 received COMMIT for key=Lullaby
+2025-03-24 23:29:38.445 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Lullaby, VALUE=korean&amp;GOT7)</message></utils.Response> to: 172.18.0.5:47354
+2025-03-24 23:29:38.451 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.452 [Acceptor] ACCEPTED sent for key=Dynamite with proposalId=1249740725
+2025-03-24 23:29:38.465 [Replica] COMMIT_PUT | Key: Lose_Control | Value: soul
+2025-03-24 23:29:38.466 Received XML utils.Request: <utils.Request><key>Boy_With_Luv</key><type>PUT</type><value>korean&amp;BTS</value></utils.Request> from: 172.18.0.5:47354
+2025-03-24 23:29:38.476 [Acceptor] PROMISE sent for key=Boy_With_Luv with proposalId=1249740769
+2025-03-24 23:29:38.560 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.561 [Acceptor] ACCEPTED sent for key=Boy_With_Luv with proposalId=1249740769
+2025-03-24 23:29:38.563 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Lose_Control, VALUE=soul)</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:38.562 [Proposer] : 0 received COMMIT for key=Lose_Control
+2025-03-24 23:29:38.587 [Replica] COMMIT_PUT | Key: Dynamite | Value: korean&BTS
+2025-03-24 23:29:38.587 Received XML utils.Request: <utils.Request><key>Espresso</key><type>PUT</type><value>pop</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:38.592 [Acceptor] PROMISE sent for key=Espresso with proposalId=1249740886
+2025-03-24 23:29:38.596 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.598 [Acceptor] ACCEPTED sent for key=Espresso with proposalId=1249740886
+2025-03-24 23:29:38.600 [Proposer] : 0 received COMMIT for key=Dynamite
+2025-03-24 23:29:38.601 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Dynamite, VALUE=korean&amp;BTS)</message></utils.Response> to: 172.18.0.4:32880
+2025-03-24 23:29:38.616 Received XML utils.Request: <utils.Request><key>Butter</key><type>PUT</type><value>korean&amp;BTS</value></utils.Request> from: 172.18.0.4:32880
+2025-03-24 23:29:38.621 [Acceptor] PROMISE sent for key=Butter with proposalId=1249740916
+2025-03-24 23:29:38.624 [Replica] COMMIT_PUT | Key: Boy_With_Luv | Value: korean&BTS
+2025-03-24 23:29:38.633 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.634 [Acceptor] ACCEPTED sent for key=Butter with proposalId=1249740916
+2025-03-24 23:29:38.641 [Proposer] : 0 received COMMIT for key=Boy_With_Luv
+2025-03-24 23:29:38.642 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Boy_With_Luv, VALUE=korean&amp;BTS)</message></utils.Response> to: 172.18.0.5:47354
+2025-03-24 23:29:38.667 Received XML utils.Request: <utils.Request><key>Fake_Love</key><type>PUT</type><value>korean&amp;BTS</value></utils.Request> from: 172.18.0.5:47354
+2025-03-24 23:29:38.677 [Acceptor] PROMISE sent for key=Fake_Love with proposalId=1249740974
+2025-03-24 23:29:38.677 [Replica] COMMIT_PUT | Key: Espresso | Value: pop
+2025-03-24 23:29:38.688 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.690 [Acceptor] ACCEPTED sent for key=Fake_Love with proposalId=1249740974
+2025-03-24 23:29:38.696 [Proposer] : 0 received COMMIT for key=Espresso
+2025-03-24 23:29:38.697 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Espresso, VALUE=pop)</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:38.721 Received XML utils.Request: <utils.Request><key>Maybe_This_Christmas</key><type>PUT</type><value>pop</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:38.725 [Replica] COMMIT_PUT | Key: Butter | Value: korean&BTS
+2025-03-24 23:29:38.726 [Acceptor] PROMISE sent for key=Maybe_This_Christmas with proposalId=1249741024
+2025-03-24 23:29:38.732 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.733 [Acceptor] ACCEPTED sent for key=Maybe_This_Christmas with proposalId=1249741024
+2025-03-24 23:29:38.736 [Proposer] : 0 received COMMIT for key=Butter
+2025-03-24 23:29:38.737 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Butter, VALUE=korean&amp;BTS)</message></utils.Response> to: 172.18.0.4:32880
+2025-03-24 23:29:38.750 [Replica] COMMIT_PUT | Key: Fake_Love | Value: korean&BTS
+2025-03-24 23:29:38.788 [Proposer] : 0 received COMMIT for key=Fake_Love
+2025-03-24 23:29:38.789 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Fake_Love, VALUE=korean&amp;BTS)</message></utils.Response> to: 172.18.0.5:47354
+2025-03-24 23:29:38.808 Received XML utils.Request: <utils.Request><key>Maybe_This_Christmas</key><type>GET</type></utils.Request> from: 172.18.0.5:47354
+2025-03-24 23:29:38.819 [Replica] COMMIT_PUT | Key: Maybe_This_Christmas | Value: pop
+2025-03-24 23:29:38.818 Sending XML utils.Response: <utils.Response><message>NOT FOUND: Maybe_This_Christmas</message></utils.Response> to: 172.18.0.5:47354
+2025-03-24 23:29:38.844 [Proposer] : 0 received COMMIT for key=Maybe_This_Christmas
+2025-03-24 23:29:38.845 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Maybe_This_Christmas, VALUE=pop)</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:38.865 Received XML utils.Request: <utils.Request><key>Mirame</key><type>GET</type></utils.Request> from: 172.18.0.5:38794
+2025-03-24 23:29:38.867 Received XML utils.Request: <utils.Request><key>Forever_Young</key><type>PUT</type><value>dance&amp;pop</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:38.869 Sending XML utils.Response: <utils.Response><message>FOUND: (KEY= Mirame, VALUE= R&amp;B)</message></utils.Response> to: 172.18.0.5:38794
+2025-03-24 23:29:38.870 [Acceptor] PROMISE sent for key=Forever_Young with proposalId=1249741169
+2025-03-24 23:29:38.886 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.888 [Acceptor] ACCEPTED sent for key=Forever_Young with proposalId=1249741169
+2025-03-24 23:29:38.892 Received XML utils.Request: <utils.Request><key>Lullaby</key><type>GET</type></utils.Request> from: 172.18.0.5:38794
+2025-03-24 23:29:38.891 [Replica] COMMIT_PUT | Key: Forever_Young | Value: dance&pop
+2025-03-24 23:29:38.901 Sending XML utils.Response: <utils.Response><message>FOUND: (KEY= Lullaby, VALUE= korean&amp;GOT7)</message></utils.Response> to: 172.18.0.5:38794
+2025-03-24 23:29:38.917 [Proposer] : 0 received COMMIT for key=Forever_Young
+2025-03-24 23:29:38.919 Received XML utils.Request: <utils.Request><key>Lose_Control</key><type>DELETE</type></utils.Request> from: 172.18.0.4:49436
+2025-03-24 23:29:38.918 Sending XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Forever_Young, VALUE=dance&amp;pop)</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:38.929 [Acceptor] PROMISE sent for key=Lose_Control with proposalId=1249741229
+2025-03-24 23:29:38.943 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.944 [Acceptor] ACCEPTED sent for key=Lose_Control with proposalId=1249741229
+2025-03-24 23:29:38.948 [Replica] COMMIT_DELETE | Key: Lose_Control
+2025-03-24 23:29:38.948 Received XML utils.Request: <utils.Request><key>Little_Things</key><type>PUT</type><value>R&amp;B</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:38.960 [Acceptor] PROMISE sent for key=Little_Things with proposalId=1249741261
+2025-03-24 23:29:38.972 Received XML utils.Request: <utils.Request><key>Little_Things</key><type>DELETE</type></utils.Request> from: 172.18.0.5:35640
+2025-03-24 23:29:38.976 [Acceptor] PROMISE sent for key=Little_Things with proposalId=1249741278
+2025-03-24 23:29:38.978 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.980 [Acceptor] REJECTED accept for key=Little_Things due to lower proposalId=1249741261
+2025-03-24 23:29:38.982 [Proposer] : 0 received COMMIT for key=Lose_Control
+2025-03-24 23:29:38.984 Sending XML utils.Response: <utils.Response><message>DELETED: (KEY=Lose_Control, VALUE=soul)</message></utils.Response> to: 172.18.0.4:49436
+2025-03-24 23:29:38.991 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:38.993 [Acceptor] ACCEPTED sent for key=Little_Things with proposalId=1249741278
+2025-03-24 23:29:39.021 Received XML utils.Request: <utils.Request><key>Die_with_a_Smile</key><type>DELETE</type></utils.Request> from: 172.18.0.4:49436
+2025-03-24 23:29:39.024 [Acceptor] PROMISE sent for key=Die_with_a_Smile with proposalId=1249741327
+2025-03-24 23:29:39.025 [Replica] COMMIT_DELETE | Key: Little_Things
+2025-03-24 23:29:39.029 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:39.030 [Acceptor] ACCEPTED sent for key=Die_with_a_Smile with proposalId=1249741327
+2025-03-24 23:29:39.035 [Proposer] : 0 received COMMIT for key=Little_Things
+2025-03-24 23:29:39.064 [Replica] COMMIT_DELETE | Key: Die_with_a_Smile
+2025-03-24 23:29:39.085 [Proposer] : 0 received COMMIT for key=Die_with_a_Smile
+2025-03-24 23:29:40.041 Sending XML utils.Response: <utils.Response><message>ERROR: Commit phase timeout for key=Little_Things</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:40.041 Sending XML utils.Response: <utils.Response><message>ERROR: Commit phase timeout for key=Die_with_a_Smile</message></utils.Response> to: 172.18.0.4:49436
+2025-03-24 23:29:40.075 Received XML utils.Request: <utils.Request><key>Mirame</key><type>PUT</type><value>reggaeton</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:40.086 Received XML utils.Request: <utils.Request><key>Apt</key><type>DELETE</type></utils.Request> from: 172.18.0.4:49436
+2025-03-24 23:29:40.089 Sending XML utils.Response: <utils.Response><message>ERROR: Commit phase timeout for key=Little_Things</message></utils.Response> to: 172.18.0.5:35640
+2025-03-24 23:29:40.087 [Acceptor] PROMISE sent for key=Mirame with proposalId=1249742391
+2025-03-24 23:29:40.092 [Acceptor] PROMISE sent for key=Apt with proposalId=1249742397
+2025-03-24 23:29:40.102 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.103 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.104 [Acceptor] ACCEPTED sent for key=Mirame with proposalId=1249742391
+2025-03-24 23:29:40.104 [Acceptor] ACCEPTED sent for key=Apt with proposalId=1249742397
+2025-03-24 23:29:40.107 [Replica] COMMIT_PUT | Key: Mirame | Value: reggaeton
+2025-03-24 23:29:40.128 Received XML utils.Request: <utils.Request><key>Mirame</key><type>DELETE</type></utils.Request> from: 172.18.0.5:35640
+2025-03-24 23:29:40.130 [Acceptor] PROMISE sent for key=Mirame with proposalId=1249742436
+2025-03-24 23:29:40.132 [Proposer] : 0 received COMMIT for key=Mirame
+2025-03-24 23:29:40.135 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.136 [Acceptor] ACCEPTED sent for key=Mirame with proposalId=1249742436
+2025-03-24 23:29:40.145 [Replica] COMMIT_DELETE | Key: Apt
+2025-03-24 23:29:40.145 Sending XML utils.Response: <utils.Response><message>PUT: Updated (KEY=Mirame, VALUE=reggaeton), OLD VALUE=R&amp;B</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:40.174 Received XML utils.Request: <utils.Request><key>Weren't_For_The_Wind</key><type>PUT</type><value>country</value></utils.Request> from: 172.18.0.3:55476
+2025-03-24 23:29:40.179 [Acceptor] PROMISE sent for key=Weren't_For_The_Wind with proposalId=1249742485
+2025-03-24 23:29:40.179 [Proposer] : 0 received COMMIT for key=Apt
+2025-03-24 23:29:40.180 Sending XML utils.Response: <utils.Response><message>DELETED: (KEY=Apt, VALUE=pop)</message></utils.Response> to: 172.18.0.4:49436
+2025-03-24 23:29:40.225 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.230 [Acceptor] ACCEPTED sent for key=Weren't_For_The_Wind with proposalId=1249742485
+2025-03-24 23:29:40.238 Received XML utils.Request: <utils.Request><key>Smile</key><type>DELETE</type></utils.Request> from: 172.18.0.4:49436
+2025-03-24 23:29:40.241 [Acceptor] PROMISE sent for key=Smile with proposalId=1249742549
+2025-03-24 23:29:40.242 [Replica] COMMIT_DELETE | Key: Mirame
+2025-03-24 23:29:40.252 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.255 [Acceptor] ACCEPTED sent for key=Smile with proposalId=1249742549
+2025-03-24 23:29:40.272 [Proposer] : 0 received COMMIT for key=Mirame
+2025-03-24 23:29:40.273 Sending XML utils.Response: <utils.Response><message>DELETED: (KEY=Mirame, VALUE=reggaeton)</message></utils.Response> to: 172.18.0.5:35640
+2025-03-24 23:29:40.309 Received XML utils.Request: <utils.Request><key>Dynamite</key><type>DELETE</type></utils.Request> from: 172.18.0.5:35640
+2025-03-24 23:29:40.311 [Replica] COMMIT_PUT | Key: Weren't_For_The_Wind | Value: country
+2025-03-24 23:29:40.317 [Acceptor] PROMISE sent for key=Dynamite with proposalId=1249742626
+2025-03-24 23:29:40.332 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.334 [Acceptor] ACCEPTED sent for key=Dynamite with proposalId=1249742626
+2025-03-24 23:29:40.342 [Proposer] : 0 received COMMIT for key=Weren't_For_The_Wind
+2025-03-24 23:29:40.344 Sending XML utils.Response: <utils.Response><message>PUT: Updated (KEY=Weren't_For_The_Wind, VALUE=country), OLD VALUE=pop</message></utils.Response> to: 172.18.0.3:55476
+2025-03-24 23:29:40.390 [Replica] COMMIT_DELETE | Key: Smile
+2025-03-24 23:29:40.416 [Proposer] : 0 received COMMIT for key=Smile
+2025-03-24 23:29:40.417 Sending XML utils.Response: <utils.Response><message>DELETED: (KEY=Smile, VALUE=country)</message></utils.Response> to: 172.18.0.4:49436
+2025-03-24 23:29:40.451 Received XML utils.Request: <utils.Request><key>Espresso</key><type>DELETE</type></utils.Request> from: 172.18.0.4:49436
+2025-03-24 23:29:40.455 [Replica] COMMIT_DELETE | Key: Dynamite
+2025-03-24 23:29:40.458 [Acceptor] PROMISE sent for key=Espresso with proposalId=1249742767
+2025-03-24 23:29:40.466 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.467 [Acceptor] ACCEPTED sent for key=Espresso with proposalId=1249742767
+2025-03-24 23:29:40.470 [Proposer] : 0 received COMMIT for key=Dynamite
+2025-03-24 23:29:40.471 Sending XML utils.Response: <utils.Response><message>DELETED: (KEY=Dynamite, VALUE=korean&amp;BTS)</message></utils.Response> to: 172.18.0.5:35640
+2025-03-24 23:29:40.487 Received XML utils.Request: <utils.Request><key>Butter</key><type>DELETE</type></utils.Request> from: 172.18.0.5:35640
+2025-03-24 23:29:40.493 [Acceptor] PROMISE sent for key=Butter with proposalId=1249742804
+2025-03-24 23:29:40.570 [Replica] COMMIT_DELETE | Key: Espresso
+2025-03-24 23:29:40.621 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.623 [Acceptor] ACCEPTED sent for key=Butter with proposalId=1249742804
+2025-03-24 23:29:40.632 [Proposer] : 0 received COMMIT for key=Espresso
+2025-03-24 23:29:40.635 Sending XML utils.Response: <utils.Response><message>DELETED: (KEY=Espresso, VALUE=pop)</message></utils.Response> to: 172.18.0.4:49436
+2025-03-24 23:29:40.667 [Replica] COMMIT_DELETE | Key: Butter
+2025-03-24 23:29:40.697 [Proposer] : 0 received COMMIT for key=Butter
+2025-03-24 23:29:40.699 Sending XML utils.Response: <utils.Response><message>DELETED: (KEY=Butter, VALUE=korean&amp;BTS)</message></utils.Response> to: 172.18.0.5:35640
+2025-03-24 23:29:40.726 Received XML utils.Request: <utils.Request><key>Smile</key><type>PUSH</type><value>pop</value></utils.Request> from: 172.18.0.4:46540
+2025-03-24 23:29:40.737 Sending XML utils.Response: <utils.Response><message>ERROR: Unknown command type: PUSH</message></utils.Response> to: 172.18.0.4:46540
+2025-03-24 23:29:40.742 Received XML utils.Request: <utils.Request><key>Fake_Love</key><type>DELETE</type></utils.Request> from: 172.18.0.5:35640
+2025-03-24 23:29:40.747 [Acceptor] PROMISE sent for key=Fake_Love with proposalId=1249743058
+2025-03-24 23:29:40.757 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.759 [Acceptor] ACCEPTED sent for key=Fake_Love with proposalId=1249743058
+2025-03-24 23:29:40.761 Received XML utils.Request: <utils.Request><key>Smile</key><type>DELETE</type></utils.Request> from: 172.18.0.4:46540
+2025-03-24 23:29:40.764 [Replica] COMMIT_DELETE | Key: Fake_Love
+2025-03-24 23:29:40.766 [Acceptor] PROMISE sent for key=Smile with proposalId=1249743079
+2025-03-24 23:29:40.790 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.792 [Acceptor] ACCEPTED sent for key=Smile with proposalId=1249743079
+2025-03-24 23:29:40.801 [Proposer] : 0 received COMMIT for key=Fake_Love
+2025-03-24 23:29:40.802 Sending XML utils.Response: <utils.Response><message>DELETED: (KEY=Fake_Love, VALUE=korean&amp;BTS)</message></utils.Response> to: 172.18.0.5:35640
+2025-03-24 23:29:40.826 [Replica] COMMIT_DELETE | Key: Smile
+2025-03-24 23:29:40.854 [Proposer] : 0 received COMMIT for key=Smile
+2025-03-24 23:29:40.855 Sending XML utils.Response: <utils.Response><message>DELETE: Key not found (KEY=Smile)</message></utils.Response> to: 172.18.0.4:46540
+2025-03-24 23:29:40.881 Received XML utils.Request: <utils.Request><key>Butter</key><type>PUSH</type><value>korean&amp;BTS</value></utils.Request> from: 172.18.0.5:38866
+2025-03-24 23:29:40.886 Sending XML utils.Response: <utils.Response><message>ERROR: Unknown command type: PUSH</message></utils.Response> to: 172.18.0.5:38866
+2025-03-24 23:29:40.903 Received XML utils.Request: <utils.Request><key>Dynamite</key><type>DELETE</type></utils.Request> from: 172.18.0.5:38866
+2025-03-24 23:29:40.906 [Acceptor] PROMISE sent for key=Dynamite with proposalId=1249743220
+2025-03-24 23:29:40.912 [Proposer] :0 quorum reached (3/3), sending ACCEPTs.
+2025-03-24 23:29:40.913 [Acceptor] ACCEPTED sent for key=Dynamite with proposalId=1249743220
+2025-03-24 23:29:40.916 [Replica] COMMIT_DELETE | Key: Dynamite
+2025-03-24 23:29:40.926 [Proposer] : 0 received COMMIT for key=Dynamite
+2025-03-24 23:29:40.927 Sending XML utils.Response: <utils.Response><message>DELETE: Key not found (KEY=Dynamite)</message></utils.Response> to: 172.18.0.5:38866

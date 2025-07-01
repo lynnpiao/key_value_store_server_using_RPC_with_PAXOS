@@ -1,0 +1,74 @@
+2025-03-24 23:29:36.820 Key-Value Store Client started. Type 'exit' to quit.
+2025-03-24 23:29:37.095 Attempting to connect to server at port: 4560
+2025-03-24 23:29:37.314 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:37.924 XML utils.Request: <utils.Request><key>Python</key><type>PUT</type><value>korean&amp;GOT7</value></utils.Request>
+2025-03-24 23:29:37.946 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Python, VALUE=korean&amp;GOT7)</message></utils.Response>
+2025-03-24 23:29:37.979 Attempting to connect to server at port: 4560
+2025-03-24 23:29:37.998 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.179 XML utils.Request: <utils.Request><key>Not_By_The_Moon</key><type>PUT</type><value>korean&amp;GOT7</value></utils.Request>
+2025-03-24 23:29:38.188 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Not_By_The_Moon, VALUE=korean&amp;GOT7)</message></utils.Response>
+2025-03-24 23:29:38.204 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.215 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.449 XML utils.Request: <utils.Request><key>Lullaby</key><type>PUT</type><value>korean&amp;GOT7</value></utils.Request>
+2025-03-24 23:29:38.451 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Lullaby, VALUE=korean&amp;GOT7)</message></utils.Response>
+2025-03-24 23:29:38.458 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.463 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.647 XML utils.Request: <utils.Request><key>Boy_With_Luv</key><type>PUT</type><value>korean&amp;BTS</value></utils.Request>
+2025-03-24 23:29:38.651 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Boy_With_Luv, VALUE=korean&amp;BTS)</message></utils.Response>
+2025-03-24 23:29:38.658 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.663 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.792 XML utils.Request: <utils.Request><key>Fake_Love</key><type>PUT</type><value>korean&amp;BTS</value></utils.Request>
+2025-03-24 23:29:38.796 XML utils.Response: <utils.Response><message>PUT: Inserted (KEY=Fake_Love, VALUE=korean&amp;BTS)</message></utils.Response>
+2025-03-24 23:29:38.801 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.804 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.824 XML utils.Request: <utils.Request><key>Maybe_This_Christmas</key><type>GET</type></utils.Request>
+2025-03-24 23:29:38.827 XML utils.Response: <utils.Response><message>NOT FOUND: Maybe_This_Christmas</message></utils.Response>
+2025-03-24 23:29:38.832 Attempting to connect to server at port: 4563
+2025-03-24 23:29:38.840 Successfully connected to server at rmi-server:4563
+2025-03-24 23:29:38.850 XML utils.Request: <utils.Request><key>Forever_Young</key><type>GET</type></utils.Request>
+2025-03-24 23:29:38.856 XML utils.Response: <utils.Response><message>NOT FOUND: Forever_Young</message></utils.Response>
+2025-03-24 23:29:38.858 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.863 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.874 XML utils.Request: <utils.Request><key>Mirame</key><type>GET</type></utils.Request>
+2025-03-24 23:29:38.875 XML utils.Response: <utils.Response><message>FOUND: (KEY= Mirame, VALUE= R&amp;B)</message></utils.Response>
+2025-03-24 23:29:38.879 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.883 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:38.906 XML utils.Request: <utils.Request><key>Lullaby</key><type>GET</type></utils.Request>
+2025-03-24 23:29:38.908 XML utils.Response: <utils.Response><message>FOUND: (KEY= Lullaby, VALUE= korean&amp;GOT7)</message></utils.Response>
+2025-03-24 23:29:38.921 Attempting to connect to server at port: 4561
+2025-03-24 23:29:38.935 Successfully connected to server at rmi-server:4561
+2025-03-24 23:29:38.952 XML utils.Request: <utils.Request><key>Butter</key><type>GET</type></utils.Request>
+2025-03-24 23:29:38.960 XML utils.Response: <utils.Response><message>FOUND: (KEY= Butter, VALUE= korean&amp;BTS)</message></utils.Response>
+2025-03-24 23:29:38.964 Attempting to connect to server at port: 4560
+2025-03-24 23:29:38.969 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.105 XML utils.Request: <utils.Request><key>Little_Things</key><type>DELETE</type></utils.Request>
+2025-03-24 23:29:40.109 XML utils.Response: <utils.Response><message>ERROR: Commit phase timeout for key=Little_Things</message></utils.Response>
+2025-03-24 23:29:40.121 Attempting to connect to server at port: 4560
+2025-03-24 23:29:40.125 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.278 XML utils.Request: <utils.Request><key>Mirame</key><type>DELETE</type></utils.Request>
+2025-03-24 23:29:40.280 XML utils.Response: <utils.Response><message>DELETED: (KEY=Mirame, VALUE=reggaeton)</message></utils.Response>
+2025-03-24 23:29:40.287 Attempting to connect to server at port: 4560
+2025-03-24 23:29:40.296 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.475 XML utils.Request: <utils.Request><key>Dynamite</key><type>DELETE</type></utils.Request>
+2025-03-24 23:29:40.478 XML utils.Response: <utils.Response><message>DELETED: (KEY=Dynamite, VALUE=korean&amp;BTS)</message></utils.Response>
+2025-03-24 23:29:40.480 Attempting to connect to server at port: 4560
+2025-03-24 23:29:40.484 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.707 XML utils.Request: <utils.Request><key>Butter</key><type>DELETE</type></utils.Request>
+2025-03-24 23:29:40.716 XML utils.Response: <utils.Response><message>DELETED: (KEY=Butter, VALUE=korean&amp;BTS)</message></utils.Response>
+2025-03-24 23:29:40.724 Attempting to connect to server at port: 4560
+2025-03-24 23:29:40.734 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.815 XML utils.Request: <utils.Request><key>Fake_Love</key><type>DELETE</type></utils.Request>
+2025-03-24 23:29:40.816 XML utils.Response: <utils.Response><message>DELETED: (KEY=Fake_Love, VALUE=korean&amp;BTS)</message></utils.Response>
+2025-03-24 23:29:40.825 Error in command: PUT key1 value1 pop. Too many arguments in command: PUT key1 value1 pop. Expected format: <TYPE> <KEY> [<VALUE>]
+2025-03-24 23:29:40.828 Attempting to connect to server at port: 4564
+2025-03-24 23:29:40.845 Successfully connected to server at rmi-server:4564
+2025-03-24 23:29:40.860 XML utils.Request: <utils.Request><key>Butter</key><type>GET</type></utils.Request>
+2025-03-24 23:29:40.862 XML utils.Response: <utils.Response><message>NOT FOUND: Butter</message></utils.Response>
+2025-03-24 23:29:40.867 Attempting to connect to server at port: 4560
+2025-03-24 23:29:40.878 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.891 XML utils.Request: <utils.Request><key>Butter</key><type>PUSH</type><value>korean&amp;BTS</value></utils.Request>
+2025-03-24 23:29:40.892 XML utils.Response: <utils.Response><message>ERROR: Unknown command type: PUSH</message></utils.Response>
+2025-03-24 23:29:40.896 Attempting to connect to server at port: 4560
+2025-03-24 23:29:40.900 Successfully connected to server at rmi-server:4560
+2025-03-24 23:29:40.932 XML utils.Request: <utils.Request><key>Dynamite</key><type>DELETE</type></utils.Request>
+2025-03-24 23:29:40.934 XML utils.Response: <utils.Response><message>DELETE: Key not found (KEY=Dynamite)</message></utils.Response>

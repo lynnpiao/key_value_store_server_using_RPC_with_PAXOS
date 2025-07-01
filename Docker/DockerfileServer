@@ -1,0 +1,39 @@
+# Use Maven to build the application
+FROM maven:3.8-openjdk-11 AS build
+
+# Set the working directory
+WORKDIR /app
+
+# Copy all source code and pom.xml
+COPY . /app
+
+# Build the project
+RUN mvn clean package
+
+# Use OpenJDK 11
+FROM openjdk:11-jdk-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+
+# Copy the built JAR from the builder stage(use dependency version)
+COPY --from=build /app/target/project4-1.0-SNAPSHOT-jar-with-dependencies.jar rmi-server.jar
+
+# Expose server port
+EXPOSE 4560 4561 4562 4563 4564
+
+# Ensure logs directory exists
+RUN mkdir -p /app/logs
+
+# Default values for arguments
+ENV SERVER_PORTS=4560,4561,4562,4563,4564
+ENV LOG_FILES="/app/logs/ServerLog1.txt,/app/logs/ServerLog2.txt,/app/logs/ServerLog3.txt,/app/logs/ServerLog4.txt,/app/logs/ServerLog5.txt"
+ENV LEARNER_LOG=/app/logs/CentralizedLearnerLog.txt
+
+# Explicitly Add JAXB at Runtime
+# RUN apt-get update && apt-get install -y libjaxb-api-java
+
+# Run the server with arguments
+CMD ["sh", "-c", "java -cp rmi-server.jar RMIServer $SERVER_PORT $LOG_FILE"]
+
